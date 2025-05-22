@@ -1,8 +1,8 @@
 
 from selenium.webdriver.common.by import By
 
-from pytestsE2eFramework2.pageObjects.checkout_confirmation import Checkout_Confirmation
-from pytestsE2eFramework2.utils.browserutils import BrowserUtils
+from pageObjects.checkout_confirmation import Checkout_Confirmation
+from utils.browserutils import BrowserUtils
 
 
 class ShopPage(BrowserUtils):

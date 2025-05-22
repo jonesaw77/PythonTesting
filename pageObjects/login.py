@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
-from pytestsE2eFramework2.pageObjects.shopPage import ShopPage
-from pytestsE2eFramework2.utils.browserutils import BrowserUtils
+from pageObjects.shopPage import ShopPage
+from utils.browserutils import BrowserUtils
 
 
 class LoginPage(BrowserUtils):
