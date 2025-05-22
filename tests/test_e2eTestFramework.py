@@ -8,13 +8,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
-from pytestsE2eFramework2.pageObjects.checkout_confirmation import Checkout_Confirmation
+from pageObjects.checkout_confirmation import Checkout_Confirmation
 from pytestsE2eFramework2.pageObjects.login import LoginPage
 from pytestsE2eFramework2.pageObjects.shopPage import ShopPage
 
 from pathlib import Path
-from pytestsE2eFramework2.pageObjects.checkout_confirmation import Checkout_Confirmation
-from utils.browserutils import BrowserUtils
+from utils.browserutils import TestBrowserUtils
+
 
 
 
