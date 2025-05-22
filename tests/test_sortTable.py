@@ -11,6 +11,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 #Chrome Driver Service
 
 @pytest.mark.full
+@pytest.mark.regression
 def test_sort(browserInstance):
     driver = browserInstance
     driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers")
