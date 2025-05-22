@@ -13,7 +13,8 @@ from pageObjects.login import LoginPage
 from pageObjects.shopPage import ShopPage
 
 from pathlib import Path
-from utils.browserutils import TestBrowserUtils
+from utils.browserutils import BrowserUtils
+
 
 
 
